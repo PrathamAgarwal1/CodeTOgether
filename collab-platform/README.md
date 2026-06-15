@@ -41,7 +41,7 @@ Make sure you have [Node.js](https://nodejs.org/) and [MongoDB](https://www.mong
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/PrathamAgarwal1/SkillSkirmish.git
-cd SkillSkirmish/collab-platform
+cd collab-platform
 ```
 
 ### 2. Install dependencies
@@ -49,18 +49,18 @@ Open two terminals, one for the frontend and one for the backend.
 
 **Backend (`/server`):**
 ```bash
-cd collab-platform/server
+cd server
 npm install
 ```
 
 **Frontend (`/client`):**
 ```bash
-cd collab-platform/client
+cd client
 npm install
 ```
 
 ### 3. Environment Variables
-Create a `.env` file in the `collab-platform/server` directory and add your keys:
+Create a `.env` file in the `server` directory and add your keys:
 ```env
 PORT=5000
 CLIENT_URL=http://localhost:5173
@@ -77,13 +77,13 @@ Start both the backend and frontend servers:
 
 **Backend:**
 ```bash
-# In the collab-platform/server directory
+# In the /server directory
 npm start
 ```
 
 **Frontend:**
 ```bash
-# In the collab-platform/client directory
+# In the /client directory
 npm run dev
 ```
 
